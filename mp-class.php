@@ -46,6 +46,7 @@ class MP {
 }
 
 // EXAMPLE 1: Add new contact to Maropost:
+$mp = new MP;
 $newcontact = $mp->request('POST','lists/2356/contacts', array(
 		'first_name'  => 'John',
 		'last_name'   => 'Smith',
