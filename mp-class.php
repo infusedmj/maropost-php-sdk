@@ -2,7 +2,7 @@
 
 class MP {
 	static $auth_token 	= "{ENTER YOUR AUTH TOKEN}";
-	static $url_api 	= "http://app.maropost.com/accounts/{ENTER MAROPOST ACCT ID}/";
+	static $url_api 	= "http://api.maropost.com/accounts/{ENTER MAROPOST ACCT ID}/";
 
 	function request($action, $endpoint, $dataArray) {
 		$url = self::$url_api . $endpoint . ".json"; 
